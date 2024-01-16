@@ -1,0 +1,7 @@
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\obj\Debug\CmdLineSpoofer.csproj.AssemblyReference.cache
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\obj\Debug\CmdLineSpoofer.csproj.CoreCompileInputs.cache
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\bin\Debug\CmdLineSpoofer.exe.config
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\bin\Debug\CmdLineSpoofer.exe
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\bin\Debug\CmdLineSpoofer.pdb
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\obj\Debug\CmdLineSpoofer.exe
+C:\Users\administrator\Downloads\CmdLineSpoofer-master\CmdLineSpoofer-master\CmdLineSpoofer\obj\Debug\CmdLineSpoofer.pdb
