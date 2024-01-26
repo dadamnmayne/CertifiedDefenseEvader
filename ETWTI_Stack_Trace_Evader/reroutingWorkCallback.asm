@@ -5,7 +5,7 @@ extern getLoadLibraryA
 global WorkCallback
 
 WorkCallback:
-	; INTENT: To move to rcx (first argument) from rdx (second argument)
+	; INTENT: To move to rcx (first argument) of getLoadLibraryA from rdx (second argument)
 	; Needed if you have to move arguments around for a function.
     mov rcx, rdx
 	; INTENT: To set rdx (second argument of getLoadLibraryA) to zero.
