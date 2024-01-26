@@ -1,6 +1,3 @@
-Building a tool to learn about defense evasion. Each module of a tool contains a working binary.
+Learning about defense evasion from articles read, courses taken and malware reversed.
 
-Future
-
-Planning to do in-memory defense evasion only.
-Credit for the commandlinespoofer goes to @plackyhacker. I definitely should have forked this. I'm super new to the git process.
+I comment very throughly and obsessively to learn new languages. You've been warned.
