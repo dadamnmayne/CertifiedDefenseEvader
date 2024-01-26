@@ -1,6 +1,8 @@
 #include <windows.h>
 #include <stdio.h>
 
+/* https://0xdarkvortex.dev/proxying-dll-loads-for-hiding-etwti-stack-tracing/ */
+
 /*INTENT: To build a function pointer type named TPALLOCWORK.
 
 TPALLOCWORK takes the following parameters:
