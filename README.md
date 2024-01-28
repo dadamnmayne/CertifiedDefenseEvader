@@ -7,3 +7,5 @@ I comment very throughly and obsessively. It helps me learn. You've been warned.
 
 ETWTI_Stack_Trace_Evader: When complete, this will accept and execute a malicious DLL while hopefully evading the best EDRs.
 
+ldump_rot13: Mimikatz but in C# and all run-time signatures stripped. Does not evade scanning of binary at rest at this time.
+
