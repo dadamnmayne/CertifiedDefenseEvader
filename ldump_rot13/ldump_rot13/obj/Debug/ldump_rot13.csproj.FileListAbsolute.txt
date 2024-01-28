@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\dev\SharpKatz-master\ldump_rot13\obj\Debug\ldump_rot13.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\dev\SharpKatz-master\ldump_rot13\obj\Debug\ldump_rot13.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\dev\SharpKatz-master\ldump_rot13\bin\Debug\ldump_rot13.exe.config
+C:\Users\Administrator\Documents\dev\SharpKatz-master\ldump_rot13\bin\Debug\ldump_rot13.exe
+C:\Users\Administrator\Documents\dev\SharpKatz-master\ldump_rot13\obj\Debug\ldump_rot13.exe
