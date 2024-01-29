@@ -20,6 +20,8 @@ Usage [Create your own DLL file in msfvenom or however you prefer]:
 
 I highly advise making your DLL send a reverse shell back to your attacking machine as opposed to just making it open notepad.exe or some bullshit. Ultimately, we want to encrypt the DLL, allocate space for the DLL, then decrypt the DLL per Reflective DLL Injection.
 
+Next Step: Test on Elastic Endpoint.
+
 ## ldump_rot13: 
 Mimikatz but in C# and all run-time signatures stripped. Does not evade scanning of binary at rest at this time.
 
