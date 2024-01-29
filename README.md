@@ -5,7 +5,8 @@ All efforts are to learn about EDRs and encourage the continued development of E
 For ethical use only.
 I comment very throughly and obsessively. It helps me learn. You've been warned.
 
-ETWTI_Stack_Trace_Evader: When complete, this will accept and execute a malicious DLL while hopefully evading the best EDRs.
+
+## ETWTI_Stack_Trace_Evader: When complete, this will accept and execute a malicious DLL while hopefully evading the best EDRs.
 
 Usage [Create your own DLL file in msfvenom or however you prefer]:
 
