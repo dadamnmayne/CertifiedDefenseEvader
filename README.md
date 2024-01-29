@@ -8,6 +8,7 @@ I comment very throughly and obsessively. It helps me learn. You've been warned.
 ETWTI_Stack_Trace_Evader: When complete, this will accept and execute a malicious DLL while hopefully evading the best EDRs.
 
 Usage [Create your own DLL file in msfvenom or however you prefer]:
+
 ```ETWTIStackTraceEvader.exe [DLL FILENAME].dll```
 
 I highly advise making your DLL send a reverse shell back to your attacking machine as opposed to just making it open notepad.exe or some bullshit.
