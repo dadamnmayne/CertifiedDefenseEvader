@@ -7,8 +7,8 @@ I comment very throughly and obsessively. It helps me learn. You've been warned.
 
 
 ## ETWTI_Stack_Trace_Evader:
-### Defenses Evaded: EDR API Userland Hooking, Sysmon
-### Defenses Triggered: Windows Defender (Unknown Reason, likely Static Component Related. Runs but deletes upon being scanned.)
+#### Defenses Evaded: EDR API Userland Hooking, Sysmon
+#### Defenses Triggered: Windows Defender (Unknown Reason, likely Static Component Related. Runs but deletes upon being scanned.)
 Accepts a malicious DLL while evading EDRs. Current release does piss Windows Defender off, so I have more work to do. The stack cleaning technique does work, however. Thanks to Paranoid Ninja for the dope technique. He has several other articles, so I'll have to dig through those to see if I can improve this.
 
 Here is the article.
