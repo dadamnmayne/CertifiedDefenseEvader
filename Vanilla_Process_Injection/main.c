@@ -4,6 +4,8 @@
 /* CREDIT: Pretty much jacked this from cr0w. Go subscribe to his channel
 and check out his video, Malware Development II: Process Injection.*/
 
+/* INTENT: To print error symbols for Good (k), Error (e) and Info (i).
+This is how cr0w does it. But I kept it. */
 const char* k = "[+]";
 const char* e = "[-]";
 const char* i = "[*]";
