@@ -25,9 +25,13 @@ I highly advise making your DLL send a reverse shell back to your attacking mach
 Next Step: Test on Elastic Endpoint.
 
 ## ldump_rot13: 
+#### Defenses Evaded: Windows Defender Run Time Defenses
+#### Defenses Triggered: Windows Defender Scanning, Sysmon, EDR
 Mimikatz but in C# and all run-time signatures stripped. Does not evade scanning of binary at rest at this time.
 
 ## Vanilla Process Injection:
+#### Defenses Evaded: Command Line Argument Detection in Sysmon (Blue teamers won't know whats being ran).
+#### Defenses Triggered: Windows Defender Scanning and Run Time Defenses, Sysmon Event ID 10, EDRs
 Will get caught by Windows Defender, Sysmon, EDRs and probably Granny too. Its not completely useless, tho. If you want to hide Command Line arguments from Sysmon, this is the way. Since the Command Line argument only applies to the spawning of a process, you can inject away and no Command Line arguments in Sysmon will appear. This code just serves as a baseline on which we can improve. Credit to cr0w. This is basically his, but I removed the hungarian notation. I hate that shit. I replaced the variable names to more sensible sounding names so that the reader knows whats going on. If you choose to compile and run this, here is the syntax.
 
 Usage [Create your own shellcode in msfvenom. You must disable Windows Defender]
