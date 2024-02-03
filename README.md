@@ -25,3 +25,9 @@ Next Step: Test on Elastic Endpoint.
 ## ldump_rot13: 
 Mimikatz but in C# and all run-time signatures stripped. Does not evade scanning of binary at rest at this time.
 
+## Vanilla Process Injection:
+Will get caught by Windows Defender, Sysmon, EDRs and probably Granny too. This code just serves as a baseline on which we can improve. Credit to cr0w. This is basically his, but I removed the hungarian notation. I hate that shit. I replaced the variable names to more sensible sounding names so that the reader knows whats going on. If you choose to compile and run this, here is the syntax.
+
+Usage [Create your own shellcode in msfvenom. You must disable Windows Defender]
+
+```VanillaProcessInjection.exe [Victim Process ID]```
