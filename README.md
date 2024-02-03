@@ -6,7 +6,9 @@ For ethical use only.
 I comment very throughly and obsessively. It helps me learn. You've been warned.
 
 
-## ETWTI_Stack_Trace_Evader: 
+## ETWTI_Stack_Trace_Evader:
+### Defenses Evaded: EDR API Userland Hooking, Sysmon
+### Defenses Triggered: Windows Defender (Unknown Reason, likely Static Component Related. Runs but deletes upon being scanned.)
 Accepts a malicious DLL while evading EDRs. Current release does piss Windows Defender off, so I have more work to do. The stack cleaning technique does work, however. Thanks to Paranoid Ninja for the dope technique. He has several other articles, so I'll have to dig through those to see if I can improve this.
 
 Here is the article.
@@ -26,7 +28,7 @@ Next Step: Test on Elastic Endpoint.
 Mimikatz but in C# and all run-time signatures stripped. Does not evade scanning of binary at rest at this time.
 
 ## Vanilla Process Injection:
-Will get caught by Windows Defender, Sysmon, EDRs and probably Granny too. This code just serves as a baseline on which we can improve. Credit to cr0w. This is basically his, but I removed the hungarian notation. I hate that shit. I replaced the variable names to more sensible sounding names so that the reader knows whats going on. If you choose to compile and run this, here is the syntax.
+Will get caught by Windows Defender, Sysmon, EDRs and probably Granny too. Its not completely useless, tho. If you want to hide Command Line arguments from Sysmon, this is the way. Since the Command Line argument only applies to the spawning of a process, you can inject away and no Command Line arguments in Sysmon will appear. This code just serves as a baseline on which we can improve. Credit to cr0w. This is basically his, but I removed the hungarian notation. I hate that shit. I replaced the variable names to more sensible sounding names so that the reader knows whats going on. If you choose to compile and run this, here is the syntax.
 
 Usage [Create your own shellcode in msfvenom. You must disable Windows Defender]
 
